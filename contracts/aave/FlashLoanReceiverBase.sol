@@ -8,7 +8,7 @@ import "./SafeERC20.sol";
 import "./IFlashLoanReceiver.sol";
 import "./ILendingPoolAddressesProvider.sol";
 import "./EthAddressLib.sol";
-import "../utils/Withdrawable.sol";
+import "./Withdrawable.sol";
 
 contract FlashLoanReceiverBase is IFlashLoanReceiver, Withdrawable {
 
