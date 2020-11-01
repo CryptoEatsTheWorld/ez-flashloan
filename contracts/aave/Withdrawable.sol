@@ -2,7 +2,7 @@ pragma solidity >=0.4.24;
 
 import "./ERC20.sol";
 import "./SafeERC20.sol";
-import "@openzeppelin/contracts/ownership/Ownable.sol";
+import "./Ownable.sol";
 
 contract Withdrawable is Ownable {
     using SafeERC20 for ERC20;
